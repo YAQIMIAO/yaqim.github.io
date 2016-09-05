@@ -1,0 +1,50 @@
+@font-face {
+font-family: 'Source Han Sans SC';
+  src: url('../fonts/SourceHanSansSC-Normal.otf') format('opentype');
+}
+
+@font-face {
+font-family: 'Source Han Sans JP';
+  src: url('../fonts/SourceHanSansJP-Normal.otf') format('opentype');
+}
+
+body {font-family: 'Source Han Sans JP', 'Source Han Sans SC', sans-serif;}
+
+h4 {
+color:#898989
+}
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover {
+color:#D32F2F
+}
+
+#avatar {
+width:100px;
+height:100px;
+margin:.4em 1em .4em 0;
+display:block;
+background:url(/images/profile.png) center center no-repeat;
+background-size: cover;
+}
+
+#avatar:hover {
+background:url(/images/profile2.png) center center no-repeat;
+background-size: cover;
+}
+
+.nontext {
+max-width:100%;
+margin-bottom:1em;
+}
+
+.blogimg {
+max-height:300px;
+width: auto;
+display: block;
+}
+
+.nontext-caption {
+padding: .4em 0;
+display: block;
+color: #898989;
+}
